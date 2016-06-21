@@ -27,6 +27,7 @@ body {
   font-family: 'Lora', serif;
   color: #222;
   -webkit-font-smoothing: antialiased;
+  font-size: 16px;
 }
 
 
@@ -36,6 +37,16 @@ body {
 a {
   color: white;
   text-decoration: none;
+}
+
+header h1 {
+  text-transform: uppercase;
+  font-family: 'Droid Serif', serif;
+  margin-top: 0;
+}
+
+h1 {
+  font-weight: bold;
 }
 
 h2 {
@@ -63,18 +74,6 @@ h3 {
   top: 40%;
 }
 
-.col-half {
-  width: 50%;
-  float: left;
-  padding-right: 10px;
-}
-
-.col-half:last-of-type {
-  padding-left: 10px;
-  padding-right: 0;
-}
-
-
 section {
   border-bottom: 1px solid #E5E5E5;
   padding-left: 10%;
@@ -95,13 +94,6 @@ header {
   text-align: center;
 }
 
-header h1 {
-  text-transform: uppercase;
-  font-family: 'Droid Serif', serif;
-  margin-top: 0;
-  font-weight: bold;
-}
-
 hr {
   margin: 0 0 20px;
   border: 0;
@@ -112,17 +104,6 @@ hr {
 
 /* About
    ================================================================ */
-.about article {
-  width: 75%;
-  float: left;
-  padding: 20px 0 20px 10%;
-}
-
-aside {
-  width: 25%;
-  float: left;
-}
-
 aside div {
   border: 1px solid #E5E5E5;
   border-top: none;
@@ -134,7 +115,6 @@ aside div:last-of-type {
 }
 
 aside h2 {
-  margin: 0;
   font-style: normal;
   font-size: 20px;
 }
@@ -172,7 +152,7 @@ aside p {
   padding-right: 0;
 }
 
-.gallery article.col-half {
+.gallery article {
   padding: 70px 40px 70px 0;
 }
 
@@ -219,7 +199,7 @@ footer {
   clear: both;
   background-color: #252422;
   color: white;
-  padding: 20px;
+  padding: 30px;
 }
 
 footer a {
@@ -227,12 +207,10 @@ footer a {
 }
 
 footer p {
-  width: 50%;
-  float: left;
+  margin-bottom: 0;
 }
 
-footer p:last-of-type {
-  float: right;
+footer p:last-of-type{
   text-align: right;
 }
 

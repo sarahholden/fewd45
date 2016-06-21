@@ -15,7 +15,9 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 
-    <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic|Droid+Serif:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+		<link href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic|Droid+Serif:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
 
     <link rel="stylesheet" href="css/main.css">
 </head>
@@ -35,8 +37,8 @@
 		</div>
 	</header>
 
-	<section class="about clearfix">
-		<aside>
+	<section class="about clearfix row">
+		<aside class="col-md-4">
 			<div>
 				<h3>94</h3>
 				<h2>Points Scored</h2>
@@ -58,27 +60,30 @@
 				<p>In a ten game period.</p>
 			</div>
 		</aside>
-		<article>
+		<article class="col-md-8">
 			<img src="images/shoes.jpg" alt="">
 			<h1>&ldquo;The cast on this team—it was the best of the best.&rdquo;</h1>
-			<div class="col-half">
-				<p>The original Dream Team, the U.S. basketball team that won the gold medal at the 1992 Olympics in Barcelona, was a phenomenon on and off the court. It mattered not that it dominated the Olympic competition, beating its eight opponents by an average of 44 points. What was important was that the Dream Team, the first U.S. Olympic team to include NBA stars, gave fans a glimpse of basketball at its finest, and an entire world responded.</p>
+			<div class="row">
+				<div class="col-md-6">
+					<p>The original Dream Team, the U.S. basketball team that won the gold medal at the 1992 Olympics in Barcelona, was a phenomenon on and off the court. It mattered not that it dominated the Olympic competition, beating its eight opponents by an average of 44 points. What was important was that the Dream Team, the first U.S. Olympic team to include NBA stars, gave fans a glimpse of basketball at its finest, and an entire world responded.</p>
+				</div>
+				<div class="col-md-6">
+					<p>Since 1992, basketball has exploded in popularity around the globe, rising to a place where it truly challenges soccer's status as the world's most popular sport. Much of that is due to the impact of the Dream Team, which attracted fans and followers wherever it went.</p>
+					<button>Continue Reading</button>
+				</div>
 			</div>
-			<div class="col-half">
-				<p>Since 1992, basketball has exploded in popularity around the globe, rising to a place where it truly challenges soccer's status as the world's most popular sport. Much of that is due to the impact of the Dream Team, which attracted fans and followers wherever it went.</p>
-				<button>Continue Reading</button>
-			</div>
+
 			
 		</article>
 	</section>
 
 	<section class="gallery clearfix">
-		<article class="col-half">
+		<article class="col-md-6">
 			<h3>1992</h3>
 			<p>And what a band it was. Start with three of the game's all-time greats: Michael Jordan, Magic Johnson and Larry Bird. Add the irrepressible Charles Barkley for a little spice, as well as seven more NBA All-Stars: centers David Robinson and Patrick Ewing, power forward Karl Malone, swingmen Scottie Pippen, Chris Mullin and Clyde Drexler and point guard John Stockton. Complete the roster with Christian Laettner, the best college player of 1991-92 and a future NBA All-Star.</p>
 			<button>Gallery</button>
 		</article>
-		<div class="col-half">
+		<div class="col-md-6">
 			<img src="images/basketball.jpg" alt="">
 		</div>
 	</section>
@@ -90,8 +95,11 @@
 	</section>
 
 	<footer class="clearfix">
-		<p>&copy;2016 FEWD Dream Team Inc.</p>
-		<p>Inspired by <a href="https://dribbble.com/shots/1686442-Cassius-Real-Pixels/attachments/267441">this site</a> about Muhammad Ali</p>
+		<div class="row">
+			<p class="col-md-6">&copy;2016 FEWD Dream Team Inc.</p>
+			<p class="col-md-6">Inspired by <a href="https://dribbble.com/shots/1686442-Cassius-Real-Pixels/attachments/267441">this site</a> about Muhammad Ali</p>
+		</div>
+
 	</footer>
 	
 
